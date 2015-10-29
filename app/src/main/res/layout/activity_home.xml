@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+    <RelativeLayout
+        android:id="@+id/_1_rvly_11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/exercise"
+            android:scaleType="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/greenTransparent"
+            android:gravity="center"
+            android:text="COMBINATION"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="italic|bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/_1_lnly_11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/category"
+            android:scaleType="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/greenTransparent"
+            android:gravity="center"
+            android:text="CATEGORY"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="italic|bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/_1_rvly_13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/food"
+            android:scaleType="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/greenTransparent"
+            android:gravity="center"
+            android:text="WHAT TO DO"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="italic|bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>
